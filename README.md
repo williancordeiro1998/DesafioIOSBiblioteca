@@ -45,4 +45,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests p
 
 **Autor**
 
-Willian Cordeiro Oliveira - [GitHub]([https://github.com/seu-username](https://github.com/williancordeiro1998))
+Willian Cordeiro Oliveira - https://github.com/williancordeiro1998
