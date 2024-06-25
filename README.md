@@ -1,19 +1,48 @@
-Biblioteca iOS App
-Descrição
-Biblioteca iOS App é um aplicativo desenvolvido em Swift, utilizando SwiftUI para a interface do usuário, SwiftData para gerenciar dados persistentes com SQLite, e a GoogleBooksAPI para buscar informações sobre livros. O aplicativo permite que os usuários cadastrem, atualizem, visualizem detalhes e deletem livros em sua coleção pessoal.
+**Biblioteca iOS**
 
-Funcionalidades
-Cadastrar Livros: Adicione novos livros à sua biblioteca, especificando título, autor e sumário.
-Buscar Livros: Use a GoogleBooksAPI para buscar informações sobre livros e adicioná-los diretamente à sua coleção.
-Visualizar Detalhes: Veja detalhes dos livros cadastrados, incluindo status de leitura, data de adição, data de início e conclusão, classificação e sumário.
-Atualizar Livros: Atualize as informações dos livros cadastrados, como status, título, autor, sumário e datas.
-Deletar Livros: Remova livros da sua coleção.
-Tecnologias Utilizadas
-SwiftUI
-SwiftUI foi usado para desenvolver a interface do usuário do aplicativo. É uma poderosa framework de interface declarativa que permite criar interfaces de usuário rápidas e interativas para todas as plataformas Apple.
+**Descrição**
 
-SwiftData com SQLite
-O aplicativo usa SwiftData para gerenciar dados persistentes com SQLite como backend. SwiftData oferece uma interface de alto nível para trabalhar com bancos de dados SQL, permitindo consultas e manipulações de dados de forma eficiente e segura.
+Este aplicativo de Biblioteca iOS permite aos usuários gerenciar uma coleção pessoal de livros, utilizando SQLite como banco de dados através da biblioteca SwiftData. Ele também utiliza a Google Books API para buscar informações detalhadas de livros online.
 
-GoogleBooksAPI
-A GoogleBooksAPI é utilizada para buscar informações sobre livros. Isso permite que os usuários pesquisem livros online e adicionem informações completas sobre eles diretamente à sua coleção.
+**Funcionalidades Principais**
+
+- **Cadastro de Livros**: Adicione novos livros à sua biblioteca, especificando título e autor.
+- **Atualização de Livros**: Modifique informações como título, autor, status de leitura, data de início/completação, e rating.
+- **Visualização de Detalhes**: Veja detalhes completos dos livros, incluindo informações fornecidas pela Google Books API.
+- **Exclusão de Livros**: Remova livros da biblioteca conforme necessário.
+
+**Tecnologias Utilizadas**
+
+- **SQLite com SwiftData**: Armazena dados localmente utilizando SQLite, uma base de dados leve e eficiente, integrada através da biblioteca SwiftData para Swift.
+- **Google Books API**: Permite a busca de detalhes de livros online, como título, autor, resumo e capas.
+- **SwiftUI**: Utilizado para construir a interface do usuário de forma declarativa e reativa.
+
+**Funcionalidades Detalhadas**
+
+- **Cadastro de Livros**:
+  - Utilize o formulário de adição de livros para inserir título e autor. As informações são armazenadas localmente no SQLite.
+- **Atualização de Livros**:
+  - Acesse a tela de edição para modificar detalhes como título, autor, status de leitura, datas e rating. As alterações são refletidas diretamente no banco de dados SQLite.
+- **Visualização de Detalhes**:
+  - Ao adicionar um livro ou ao selecionar um livro existente, a aplicação busca detalhes adicionais na Google Books API, como sinopse e capa do livro.
+- **Exclusão de Livros**:
+  - Exclua livros da biblioteca através da funcionalidade de deleção disponível na lista de livros.
+
+**Como Executar o Projeto**
+
+1. **Pré-requisitos**:
+   1. Xcode 12 ou superior
+   1. Conexão à internet para acessar a Google Books API
+1. **Passos para Executar**:
+   1. Clone o repositório localmente.
+   1. Abra o projeto no Xcode.
+   1. Certifique-se de configurar as dependências, se necessário.
+   1. Execute o aplicativo em um simulador ou dispositivo iOS.
+
+**Contribuição**
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests para melhorar o código, adicionar novas funcionalidades ou corrigir bugs.
+
+**Autor**
+
+Willian Cordeiro Oliveira - [GitHub]([https://github.com/seu-username](https://github.com/williancordeiro1998))
